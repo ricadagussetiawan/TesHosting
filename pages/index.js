@@ -58,7 +58,7 @@ function Page() {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/DSC_0053 copy-min-min.jpg"
+              src="/images/takuya.jpg"
               alt="Profile Image"
             />
           </Box>
