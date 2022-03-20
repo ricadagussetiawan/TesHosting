@@ -106,7 +106,7 @@ function Page() {
             Completed the Master&apos;s Program in the Graduate School Of
             informatics Science at STIE & STMIK Jayakarta
           </BioSection>
-          Works as a freelance
+            Works as a freelance
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
