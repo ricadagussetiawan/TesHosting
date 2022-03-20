@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
-import NoSsr from '../no-ssr'
+// import NoSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelDog from '../voxel-dog'
 
@@ -15,9 +15,9 @@ const Main = ({ children, router }) => {
 
       <NavBar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
-        <NoSsr>
+        {/* <NoSsr> */}
           <VoxelDog />
-        </NoSsr>
+        {/* </NoSsr> */}
         {children}
       </Container>
     </Box>
