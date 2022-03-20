@@ -96,13 +96,6 @@ function Page() {
             <BioYear>1997</BioYear>
             Born in Jakarta , Indonesia .
           </BioSection>
-          //<BioSection>
-            //<BioYear>2018</BioYear>
-            //Worked at Yahoo! Japan (ヤフー株式会社入社)
-          //</BioSection>
-          //<BioSection>
-            //<BioYear>2019 to present</BioYear>
-          //</BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
             Completed the Master&apos;s Program in the Graduate at UI faculty of
