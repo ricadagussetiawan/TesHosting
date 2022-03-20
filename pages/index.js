@@ -96,7 +96,7 @@ function Page() {
             <BioYear>1997</BioYear>
             Born in Jakarta , Indonesia .
           </BioSection>
-          <BioSection>
+          //<BioSection>
             //<BioYear>2018</BioYear>
             //Worked at Yahoo! Japan (ヤフー株式会社入社)
           //</BioSection>
