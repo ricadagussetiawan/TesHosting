@@ -209,9 +209,9 @@ function Page() {
         </Section>
       </Container>
     </Layout>
-      <Footer></Footer>
+      
   )
 }
-
+<Footer></Footer>
 export default Page
 export { getServerSideProps } from '../components/chakra'
