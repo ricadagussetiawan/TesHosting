@@ -138,12 +138,21 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
+
                 <MenuItem
                   as={Link}
                   href="https://penginapan.netlify.app/"
                 >
                   Staycation
                 </MenuItem>
+
+                <MenuItem
+                  as={Link}
+                  href="https://www.flightradar24.com/"
+                >
+                  flightradar24
+                </MenuItem>
+
               </MenuList>
             </Menu>
           </Box>
