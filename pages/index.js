@@ -27,6 +27,7 @@ import { BioSection, BioYear } from '../components/bio'
 
 function Page() {
   return (
+    <Footer>
     <Layout>
       <Container>
         <Box
@@ -209,7 +210,7 @@ function Page() {
         </Section>
       </Container>
     </Layout>
-      <Footer />
+      </Footer>
   )
 }
 
