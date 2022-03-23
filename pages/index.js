@@ -212,6 +212,6 @@ function Page() {
       
   )
 }
-<Footer></Footer>
+              <Footer>Ricad Agus Setiawan .  All Rights Reserved.</Footer>
 export default Page
 export { getServerSideProps } from '../components/chakra'
