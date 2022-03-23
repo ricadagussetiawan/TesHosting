@@ -15,6 +15,7 @@ import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article.js'
+import Footer from '../components/footer.js'
 import {
   IoLogoWhatsapp,
   IoLogoGithub,
