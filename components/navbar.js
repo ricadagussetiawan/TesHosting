@@ -79,7 +79,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/icat108/TesHosting"
+            href="https://github.com/icat108/"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -114,7 +114,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://staycationfour.netlify.app"
+                  href="https://penginapan.netlify.app/"
                 >
                   View Source
                 </MenuItem>
