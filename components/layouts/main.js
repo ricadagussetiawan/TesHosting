@@ -10,8 +10,8 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="city" href="city.ico" />
-            <link rel="shortcut icon" href="/city.ico" type="image/x-icon" />
+          <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <title>Ricad Agus Setiawan - Homepage</title>
       </Head>
 
