@@ -27,10 +27,8 @@ import { BioSection, BioYear } from '../components/bio'
 
 function Page() {
   return (
-    
     <Layout>
       <Container>
-        <Footer>
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
@@ -209,10 +207,9 @@ function Page() {
             </ListItem>
           </List>
         </Section>
-          </Footer>
       </Container>
     </Layout>
-      
+      <Footer></Footer>
   )
 }
 
