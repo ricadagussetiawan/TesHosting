@@ -10,7 +10,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="city" href="city.png" />
+          <link rel="city" href="city.icon" />
             <link rel="shortcut icon" href="/city.ico" type="image/x-icon" />
         <title>Ricad Agus Setiawan - Homepage</title>
       </Head>
