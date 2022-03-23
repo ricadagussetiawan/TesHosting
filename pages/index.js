@@ -28,6 +28,7 @@ import { BioSection, BioYear } from '../components/bio'
 function Page() {
   return (
     <Layout>
+      <Footer>
       <Container>
         <Box
           borderRadius="lg"
@@ -208,6 +209,7 @@ function Page() {
           </List>
         </Section>
       </Container>
+        </Footer>
     </Layout>
   )
 }
