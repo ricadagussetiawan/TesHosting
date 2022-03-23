@@ -15,7 +15,6 @@ import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article.js'
-import Footer from '../components/footer.js'
 import {
   IoLogoWhatsapp,
   IoLogoGithub,
@@ -212,6 +211,6 @@ function Page() {
       
   )
 }
-              <Footer>Ricad Agus Setiawan .  All Rights Reserved.</Footer>
+              
 export default Page
 export { getServerSideProps } from '../components/chakra'
