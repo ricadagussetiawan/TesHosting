@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, FaHotel } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -89,6 +89,18 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://penginapan.netlify.app/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <FaHotel />
+            Staycation
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -116,7 +128,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://penginapan.netlify.app/"
                 >
-                  View Source
+                  Staycation
                 </MenuItem>
               </MenuList>
             </Menu>
