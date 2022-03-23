@@ -13,11 +13,11 @@ const Website = ({ Component, pageProps, router }) => {
       <Layout router={router}>
         <AnimatePresence exitBeforeEnter initial={true}>
           <Fonts />
-          <Footer />
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </Layout>
     </ChakraProvider>
+    <Footer />
   )
 }
 export default Website
