@@ -15,9 +15,10 @@ const Website = ({ Component, pageProps, router }) => {
           <Fonts />
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
+          
+    <Footer />
       </Layout>
     </ChakraProvider>
-    <Footer />
   )
 }
 export default Website
