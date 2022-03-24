@@ -143,6 +143,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://penginapan.netlify.app/"
                 >
+                    <IoBusiness />
                   Staycation
                 </MenuItem>
 
