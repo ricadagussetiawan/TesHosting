@@ -151,7 +151,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://www.flightradar24.com/"
                 >
-                    IoAirplaneOutline
+                    <IoAirplaneOutline />
                   flightradar24
                 </MenuItem>
 
