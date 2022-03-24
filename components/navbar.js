@@ -74,7 +74,12 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}
+          <LinkItem href="/posts" 
+              path={path}
+              display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
               >
               <IoNewspaper />
             Posts
