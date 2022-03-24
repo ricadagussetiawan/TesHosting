@@ -96,11 +96,7 @@ function Page() {
             <BioYear>1997</BioYear>
             Born in Jakarta , Indonesia .
           </BioSection>
-//           <BioSection>
-//             <BioYear>2018</BioYear>
-//             Completed the Master&apos;s Program in the Graduate at UI faculty of
-//             international law
-//           </BioSection>
+
           <BioSection>
             <BioYear>2022</BioYear>
             Completed the Master&apos;s Program in the Graduate School Of
