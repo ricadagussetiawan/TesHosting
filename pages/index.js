@@ -8,9 +8,10 @@ import {
   List,
   Link,
   SimpleGrid,
-  useColorModeValue,
   Icon,
-  ListItem
+  ListItem,
+  useColorModeValue,
+  chakra
 } from '@chakra-ui/react'
 import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
@@ -239,5 +240,5 @@ function Page() {
   )
 }
               
-export default Page
+export default Home
 export { getServerSideProps } from '../components/chakra'
