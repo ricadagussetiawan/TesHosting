@@ -7,6 +7,8 @@ import {
   Image,
   List,
   Link,
+  GridItem,
+  SimpleGrid,
   useColorModeValue,
   Icon,
   ListItem
