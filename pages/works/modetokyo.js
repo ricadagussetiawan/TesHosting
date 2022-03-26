@@ -17,16 +17,16 @@ const Work = () => (
       <Title>
         mode.tokyo <Badge>2016</Badge>
       </Title>
-      <P>The mode magazine for understanding to personally enjoy Japan.</P>
+      <P>Majalah fashion untuk pemahaman menikmati Indonesia secara pribadi.</P>
       <P>
-        It is one of the projects launched at{' '}
-        <Link href="https://innolab.jp/" target="_blank">
+        Ini adalah salah satu proyek yang diluncurkan di{' '}
+        <Link href="https://erigostore.co.id/" target="_blank">
           Open Innovation Lab <ExternalLinkIcon mx="2px" />
         </Link>
-        , aiming to visualize the impact of media contents on the visit of
-        foreign high-intellect class to Japan, who are highly interested in
-        Japanese culture. I joined the project to build its mobile app for iOS
-        where you can read free articles of the magazine.
+        , bertujuan untuk memvisualisasikan dampak konten media pada kunjungan
+         kelas kecerdasan tinggi asing ke Jepang, yang sangat tertarik pada
+         Budaya Jepang. Saya bergabung dengan proyek untuk membangun aplikasi selulernya untuk iOS dan Android
+         di mana Anda dapat membaca artikel majalah gratis.
       </P>
 
       <List ml={4} my={4}>
