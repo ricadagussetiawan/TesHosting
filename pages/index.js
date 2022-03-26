@@ -7,7 +7,6 @@ import {
   Image,
   List,
   Link,
-  SimpleGrid,
   Icon,
   ListItem,
   useColorModeValue,
@@ -16,7 +15,6 @@ import {
 import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article.js'
 import {
   IoLogoWhatsapp,
