@@ -117,7 +117,7 @@ function Page() {
               Photography
             </Link>
               <Link href="https://r.honeygain.me/ICHAC9FB8D" target="_blank">
-              GET 5$ Click Here
+              , GET 5$ Click Here
             </Link>
             , Google Machine Learning
           </Paragraph>
