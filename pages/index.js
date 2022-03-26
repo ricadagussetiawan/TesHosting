@@ -18,6 +18,7 @@ import Paragraph from '../components/paragraph.js'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article.js'
+import Image from 'next/image'
 import {
   IoLogoWhatsapp,
   IoLogoGithub,
