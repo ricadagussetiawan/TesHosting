@@ -239,5 +239,5 @@ function Page() {
   )
 }
               
-export default Home
+export default Page
 export { getServerSideProps } from '../components/chakra'
