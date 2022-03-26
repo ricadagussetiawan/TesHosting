@@ -35,8 +35,6 @@ const Work = () => (
           <span>iOS / Android</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>Swift</span>
         </ListItem>
         <ListItem>
           <Meta>New release</Meta>
