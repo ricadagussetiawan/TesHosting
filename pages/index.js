@@ -204,6 +204,32 @@ function Page() {
               </Link>
             </ListItem>
           </List>
+
+          <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="https://www.youtube.com/watch?v=oxm66iuHHdQ"
+            title="Test Server Rf-Online"
+            thumbnail={thumbYouTube}
+          >
+            My YouTube channel
+          </GridItem>
+          <GridItem
+            href="https://www.inkdrop.app/"
+            title="Inkdrop"
+            thumbnail={thumbInkdrop}
+          >
+            A Markdown note-taking app
+          </GridItem>
+        </SimpleGrid>
+
+        <Box align="center" my={4}>
+          <NextLink href="/posts" scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Popular posts
+            </Button>
+          </NextLink>
+        </Box>
+
         </Section>
       </Container>
     </Layout>
