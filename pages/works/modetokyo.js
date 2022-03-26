@@ -32,7 +32,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>iOS / Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
