@@ -39,19 +39,19 @@ const Work = () => (
           <span>Swift</span>
         </ListItem>
         <ListItem>
-          <Meta>Press release</Meta>
-          {/* <Link href="https://www.isid.co.jp/english/news/release/2015/pdf/20150930_ModeTokyo.pdf">
+          <Meta>New release</Meta>
+          <Link href="https://erigostore.co.id/collections/naufal-abshar-t-shirt">
             ISID Starts a Research Project to Visualize Impact of Media Contents
             on Visit of Foreign High-Intellect Class to Japan{' '}
             <ExternalLinkIcon mx="2px" />
-          </Link> */}
+          </Link>
         </ListItem>
         <ListItem>
-          <Meta>Press release</Meta>
-          {/* <Link href="https://innolab.jp/news/achievement/335">
+          <Meta>New release</Meta>
+           <Link href="https://erigostore.co.id/collections/naufal-abshar-sweatshirt">
             メディアコンテンツが訪日行動に与える影響を可視化する研究プロジェクトを始動{' '}
             <ExternalLinkIcon mx="2px" />
-          </Link> */}
+          </Link> 
         </ListItem>
       </List>
 
