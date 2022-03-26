@@ -11,14 +11,13 @@ import {
   Icon,
   ListItem,
   useColorModeValue,
-  chakra
+  
 } from '@chakra-ui/react'
 import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article.js'
-import Image from 'next/image'
 import {
   IoLogoWhatsapp,
   IoLogoGithub,
@@ -28,11 +27,8 @@ import {
 } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
 
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
 
-function Home() {
+function Page() {
   return (
     <Layout>
       <Container>
@@ -213,22 +209,7 @@ function Home() {
             </ListItem>
           </List>
 
-          <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/watch?v=oxm66iuHHdQ"
-            title="Test Server Rf-Online"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
+          
 
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
@@ -245,5 +226,5 @@ function Home() {
   )
 }
               
-export default Home
+export default Page
 export { getServerSideProps } from '../components/chakra'
