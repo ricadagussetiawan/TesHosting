@@ -39,15 +39,14 @@ const Work = () => (
         <ListItem>
           <Meta>New release</Meta>
           <Link href="https://erigostore.co.id/collections/naufal-abshar-t-shirt">
-            ISID Starts a Research Project to Visualize Impact of Media Contents
-            on Visit of Foreign High-Intellect Class to Japan{' '}
+            New Arrival{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>New release</Meta>
            <Link href="https://erigostore.co.id/collections/naufal-abshar-sweatshirt">
-            メディアコンテンツが訪日行動に与える影響を可視化する研究プロジェクトを始動{' '}
+            New Arrival{' '}
             <ExternalLinkIcon mx="2px" />
           </Link> 
         </ListItem>
