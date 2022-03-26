@@ -67,7 +67,7 @@ const Works = () => {
               thumbnail={thumbModeTokyo}
               title="mode.tokyo"
             >
-              The mode magazine for understanding to personally enjoy Japan
+              Majalah fashion untuk pemahaman menikmati Indonesia secara pribadi.
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
