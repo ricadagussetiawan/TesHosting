@@ -27,7 +27,11 @@ import {
 } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
 
-function Page() {
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
+
+function Home() {
   return (
     <Layout>
       <Container>
