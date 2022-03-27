@@ -106,7 +106,7 @@ const Navbar = props => {
 
           <LinkItem
             target="_blank"
-            href="https://penginapan.netlify.app/"
+            href="https://staycation-ten.vercel.app"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -165,7 +165,7 @@ const Navbar = props => {
 
                 <MenuItem
                   as={Link}
-                  href="https://penginapan.netlify.app/"
+                  href="https://staycation-ten.vercel.app"
                 >
                     <IoBusiness />
                   Staycation
