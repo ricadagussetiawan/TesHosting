@@ -27,7 +27,7 @@ const Posts = () => (
           <GridItem
             title="My desk setup (Late 2020)"
             thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            href="https://www.youtube.com/watch?v=oxm66iuHHdQ"
           />
         </SimpleGrid>
       </Section>
