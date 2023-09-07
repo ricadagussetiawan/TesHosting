@@ -130,7 +130,7 @@ function Page() {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/icat108" target="_blank">
+              <Link href="https://github.com/ricadagussetiawan" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
