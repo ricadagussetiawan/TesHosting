@@ -45,7 +45,7 @@ function Page() {
             <Heading as="h2" variant="page-tittle">
               Ricad Agus Setiawan
             </Heading>
-            <p>( Developer / Designer UI/UX )</p>
+            <p>( ReactJS Dev )</p>
           </Box>
           <Box
             flexShrink={0}
